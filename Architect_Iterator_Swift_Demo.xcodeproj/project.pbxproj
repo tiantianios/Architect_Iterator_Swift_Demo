@@ -13,6 +13,11 @@
 		3975ECFA1FB2A2AB00C3E86B /* Architect_Iterator_Swift_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3975ECF81FB2A2AB00C3E86B /* Architect_Iterator_Swift_Demo.xcdatamodeld */; };
 		3975ECFC1FB2A2AB00C3E86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3975ECFB1FB2A2AB00C3E86B /* Assets.xcassets */; };
 		3975ECFF1FB2A2AB00C3E86B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3975ECFD1FB2A2AB00C3E86B /* LaunchScreen.storyboard */; };
+		3975ED081FB2A3AA00C3E86B /* TXP_Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3975ED071FB2A3AA00C3E86B /* TXP_Leader.swift */; };
+		3975ED0A1FB2A45500C3E86B /* TXP_LeaveDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3975ED091FB2A45500C3E86B /* TXP_LeaveDay.swift */; };
+		3975ED0C1FB2A70A00C3E86B /* TXP_CEO_Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3975ED0B1FB2A70A00C3E86B /* TXP_CEO_Leader.swift */; };
+		3975ED0E1FB2A75300C3E86B /* TXP_Majordomo_Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3975ED0D1FB2A75300C3E86B /* TXP_Majordomo_Leader.swift */; };
+		3975ED101FB2A79300C3E86B /* TXP_Manager_Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3975ED0F1FB2A79300C3E86B /* TXP_Manager_Leader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3975ECFB1FB2A2AB00C3E86B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3975ECFE1FB2A2AB00C3E86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3975ED001FB2A2AB00C3E86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3975ED071FB2A3AA00C3E86B /* TXP_Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXP_Leader.swift; sourceTree = "<group>"; };
+		3975ED091FB2A45500C3E86B /* TXP_LeaveDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXP_LeaveDay.swift; sourceTree = "<group>"; };
+		3975ED0B1FB2A70A00C3E86B /* TXP_CEO_Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXP_CEO_Leader.swift; sourceTree = "<group>"; };
+		3975ED0D1FB2A75300C3E86B /* TXP_Majordomo_Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXP_Majordomo_Leader.swift; sourceTree = "<group>"; };
+		3975ED0F1FB2A79300C3E86B /* TXP_Manager_Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXP_Manager_Leader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		3975ECF01FB2A2AB00C3E86B /* Architect_Iterator_Swift_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				3975ED061FB2A37200C3E86B /* Architect */,
 				3975ECF11FB2A2AB00C3E86B /* AppDelegate.swift */,
 				3975ECF31FB2A2AB00C3E86B /* ViewController.swift */,
 				3975ECF51FB2A2AB00C3E86B /* Main.storyboard */,
@@ -65,6 +76,18 @@
 				3975ECF81FB2A2AB00C3E86B /* Architect_Iterator_Swift_Demo.xcdatamodeld */,
 			);
 			path = Architect_Iterator_Swift_Demo;
+			sourceTree = "<group>";
+		};
+		3975ED061FB2A37200C3E86B /* Architect */ = {
+			isa = PBXGroup;
+			children = (
+				3975ED071FB2A3AA00C3E86B /* TXP_Leader.swift */,
+				3975ED0B1FB2A70A00C3E86B /* TXP_CEO_Leader.swift */,
+				3975ED0D1FB2A75300C3E86B /* TXP_Majordomo_Leader.swift */,
+				3975ED0F1FB2A79300C3E86B /* TXP_Manager_Leader.swift */,
+				3975ED091FB2A45500C3E86B /* TXP_LeaveDay.swift */,
+			);
+			path = Architect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +164,12 @@
 			files = (
 				3975ECFA1FB2A2AB00C3E86B /* Architect_Iterator_Swift_Demo.xcdatamodeld in Sources */,
 				3975ECF41FB2A2AB00C3E86B /* ViewController.swift in Sources */,
+				3975ED0A1FB2A45500C3E86B /* TXP_LeaveDay.swift in Sources */,
 				3975ECF21FB2A2AB00C3E86B /* AppDelegate.swift in Sources */,
+				3975ED081FB2A3AA00C3E86B /* TXP_Leader.swift in Sources */,
+				3975ED101FB2A79300C3E86B /* TXP_Manager_Leader.swift in Sources */,
+				3975ED0C1FB2A70A00C3E86B /* TXP_CEO_Leader.swift in Sources */,
+				3975ED0E1FB2A75300C3E86B /* TXP_Majordomo_Leader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Architect_Iterator_Swift_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "txx.com.www.Architect-Iterator-Swift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,6 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Architect_Iterator_Swift_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "txx.com.www.Architect-Iterator-Swift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
